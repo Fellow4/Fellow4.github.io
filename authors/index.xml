@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors | Spandan Senapati</title>
+    <link>https://Fellow4.github.io/authors/</link>
+      <atom:link href="https://Fellow4.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
+    <description>Authors</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <image>
+      <url>https://Fellow4.github.io/img/icon-192.png</url>
+      <title>Authors</title>
+      <link>https://Fellow4.github.io/authors/</link>
+    </image>
+    
+    <item>
+      <title></title>
+      <link>https://Fellow4.github.io/authors/admin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://Fellow4.github.io/authors/admin/</guid>
+      <description>&lt;p&gt;Hi all, I am a Sophomore Undergraduate at Indian Institute of Technology, Kanpur mostly interested in theoritical Probabilistic Machine Learning and Deep Learning.&lt;/p&gt;
+
+&lt;p&gt;My research work in sophomore year has been focussed on application of Variational Bayesian Inference to tensor based models. Currently I am working on extending the idea of Traffic prediction using Matrix factorisation to Tensor decompositon.&lt;/p&gt;
+
+&lt;p&gt;In summer 19 I explored Probabilistic Machine Learning. My experience with Deep Learning and to some extent Reinforcement Learning in Freshmen year helped me somewhat. I studied different topics such as Conjugacy, Latent Variable Models, Expectation Maximization Algorithm, Approximate Inference(i.e. Markov Chain Monte Carlo Stimulation and Variational Bayesian Inference), Gibbs Sampling etc. I mostly worked on Variational Inference by exploring advances in the field such as Stochastic VI, Black Box VI etc. Further I explored Stochastic Variational Inference by going through research papers on the same.&lt;/p&gt;
+
+&lt;p&gt;I am interested in exploring Theoritical ML more rigorously mostly because I am quite fascinated by the multitude of Maths governing Probabilistic Machine Learning. Although I don&amp;rsquo;t have much exposure to the same but I am quite hopeful to see myself working on the same in a couple of years from now.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

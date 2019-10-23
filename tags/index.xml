@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags | Spandan Senapati</title>
+    <link>https://Fellow4.github.io/tags/</link>
+      <atom:link href="https://Fellow4.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <description>Tags</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 08 May 2019 21:50:19 +0529</lastBuildDate>
+    <image>
+      <url>https://Fellow4.github.io/img/icon-192.png</url>
+      <title>Tags</title>
+      <link>https://Fellow4.github.io/tags/</link>
+    </image>
+    
+    <item>
+      <title>Bayesian Machine Learning</title>
+      <link>https://Fellow4.github.io/tags/bayesian-machine-learning/</link>
+      <pubDate>Wed, 08 May 2019 21:50:19 +0529</pubDate>
+      <guid>https://Fellow4.github.io/tags/bayesian-machine-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deep Learning</title>
+      <link>https://Fellow4.github.io/tags/deep-learning/</link>
+      <pubDate>Wed, 08 May 2019 21:50:19 +0529</pubDate>
+      <guid>https://Fellow4.github.io/tags/deep-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reinforcement Learning</title>
+      <link>https://Fellow4.github.io/tags/reinforcement-learning/</link>
+      <pubDate>Wed, 08 May 2019 21:50:19 +0531</pubDate>
+      <guid>https://Fellow4.github.io/tags/reinforcement-learning/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
