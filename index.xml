@@ -5,12 +5,28 @@
     <link>https://Fellow4.github.io/</link>
       <atom:link href="https://Fellow4.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Spandan Senapati</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 08 May 2019 21:50:19 +0529</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 26 May 2023 20:39:46 +0530</lastBuildDate>
     <image>
       <url>https://Fellow4.github.io/img/icon-192.png</url>
       <title>Spandan Senapati</title>
       <link>https://Fellow4.github.io/</link>
     </image>
+    
+    <item>
+      <title>Sharpened Lazy Incremental Quasi-Newton Method</title>
+      <link>https://Fellow4.github.io/publication/sliqn/</link>
+      <pubDate>Fri, 26 May 2023 20:39:46 +0530</pubDate>
+      <guid>https://Fellow4.github.io/publication/sliqn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Proximal Algorithms for Smoothed Online Convex Optimization with Predictions</title>
+      <link>https://Fellow4.github.io/publication/rhpd/</link>
+      <pubDate>Tue, 27 Dec 2022 20:39:46 +0530</pubDate>
+      <guid>https://Fellow4.github.io/publication/rhpd/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Variational Bayesian Inference for Traffic Estimation and Prediction using Tensor Decomposition</title>

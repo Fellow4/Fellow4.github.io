@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Publications | Spandan Senapati</title>
-    <link>https://Fellow4.github.io/publication/</link>
-      <atom:link href="https://Fellow4.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
-    <description>Publications</description>
+    <title>Aakash Lahoti* | Spandan Senapati</title>
+    <link>https://Fellow4.github.io/authors/aakash-lahoti/</link>
+      <atom:link href="https://Fellow4.github.io/authors/aakash-lahoti/index.xml" rel="self" type="application/rss+xml" />
+    <description>Aakash Lahoti*</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 26 May 2023 20:39:46 +0530</lastBuildDate>
     <image>
       <url>https://Fellow4.github.io/img/icon-192.png</url>
-      <title>Publications</title>
-      <link>https://Fellow4.github.io/publication/</link>
+      <title>Aakash Lahoti*</title>
+      <link>https://Fellow4.github.io/authors/aakash-lahoti/</link>
     </image>
     
     <item>
@@ -17,14 +17,6 @@
       <link>https://Fellow4.github.io/publication/sliqn/</link>
       <pubDate>Fri, 26 May 2023 20:39:46 +0530</pubDate>
       <guid>https://Fellow4.github.io/publication/sliqn/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Proximal Algorithms for Smoothed Online Convex Optimization with Predictions</title>
-      <link>https://Fellow4.github.io/publication/rhpd/</link>
-      <pubDate>Tue, 27 Dec 2022 20:39:46 +0530</pubDate>
-      <guid>https://Fellow4.github.io/publication/rhpd/</guid>
       <description></description>
     </item>
     

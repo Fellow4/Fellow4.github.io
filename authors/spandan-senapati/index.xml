@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Publications | Spandan Senapati</title>
-    <link>https://Fellow4.github.io/publication/</link>
-      <atom:link href="https://Fellow4.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
-    <description>Publications</description>
+    <title>Spandan Senapati</title>
+    <link>https://Fellow4.github.io/authors/spandan-senapati/</link>
+      <atom:link href="https://Fellow4.github.io/authors/spandan-senapati/index.xml" rel="self" type="application/rss+xml" />
+    <description>Spandan Senapati</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 26 May 2023 20:39:46 +0530</lastBuildDate>
     <image>
       <url>https://Fellow4.github.io/img/icon-192.png</url>
-      <title>Publications</title>
-      <link>https://Fellow4.github.io/publication/</link>
+      <title>Spandan Senapati</title>
+      <link>https://Fellow4.github.io/authors/spandan-senapati/</link>
     </image>
     
     <item>
