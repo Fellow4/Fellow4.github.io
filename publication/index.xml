@@ -5,12 +5,20 @@
     <link>https://Fellow4.github.io/publication/</link>
       <atom:link href="https://Fellow4.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 26 May 2023 20:39:46 +0530</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Aug 2023 00:00:00 +0530</lastBuildDate>
     <image>
       <url>https://Fellow4.github.io/img/icon-192.png</url>
       <title>Publications</title>
       <link>https://Fellow4.github.io/publication/</link>
     </image>
+    
+    <item>
+      <title>Online Convex Optimization with Switching Cost and Delayed Gradients</title>
+      <link>https://Fellow4.github.io/publication/lsoco/</link>
+      <pubDate>Tue, 01 Aug 2023 00:00:00 +0530</pubDate>
+      <guid>https://Fellow4.github.io/publication/lsoco/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Sharpened Lazy Incremental Quasi-Newton Method</title>
