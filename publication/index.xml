@@ -5,7 +5,7 @@
     <link>https://Fellow4.github.io/publication/</link>
       <atom:link href="https://Fellow4.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Aug 2023 00:00:00 +0530</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 07 Aug 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://Fellow4.github.io/img/icon-192.png</url>
       <title>Publications</title>
@@ -15,8 +15,16 @@
     <item>
       <title>Online Convex Optimization with Switching Cost and Delayed Gradients</title>
       <link>https://Fellow4.github.io/publication/lsoco/</link>
-      <pubDate>Tue, 01 Aug 2023 00:00:00 +0530</pubDate>
+      <pubDate>Mon, 07 Aug 2023 00:00:00 +0000</pubDate>
       <guid>https://Fellow4.github.io/publication/lsoco/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Proximal Algorithms for Smoothed Online Convex Optimization with Predictions</title>
+      <link>https://Fellow4.github.io/publication/rhpd/</link>
+      <pubDate>Mon, 07 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>https://Fellow4.github.io/publication/rhpd/</guid>
       <description></description>
     </item>
     
@@ -25,14 +33,6 @@
       <link>https://Fellow4.github.io/publication/sliqn/</link>
       <pubDate>Fri, 26 May 2023 20:39:46 +0530</pubDate>
       <guid>https://Fellow4.github.io/publication/sliqn/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Proximal Algorithms for Smoothed Online Convex Optimization with Predictions</title>
-      <link>https://Fellow4.github.io/publication/rhpd/</link>
-      <pubDate>Tue, 27 Dec 2022 20:39:46 +0530</pubDate>
-      <guid>https://Fellow4.github.io/publication/rhpd/</guid>
       <description></description>
     </item>
     
