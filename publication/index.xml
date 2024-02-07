@@ -5,12 +5,20 @@
     <link>https://Fellow4.github.io/publication/</link>
       <atom:link href="https://Fellow4.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 07 Aug 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 19 Jan 2024 20:39:46 +0530</lastBuildDate>
     <image>
       <url>https://Fellow4.github.io/img/icon-192.png</url>
       <title>Publications</title>
       <link>https://Fellow4.github.io/publication/</link>
     </image>
+    
+    <item>
+      <title>Sharpened Lazy Incremental Quasi-Newton Method</title>
+      <link>https://Fellow4.github.io/publication/sliqn/</link>
+      <pubDate>Fri, 19 Jan 2024 20:39:46 +0530</pubDate>
+      <guid>https://Fellow4.github.io/publication/sliqn/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Online Convex Optimization with Switching Cost and Delayed Gradients</title>
@@ -25,14 +33,6 @@
       <link>https://Fellow4.github.io/publication/rhpd/</link>
       <pubDate>Mon, 07 Aug 2023 00:00:00 +0000</pubDate>
       <guid>https://Fellow4.github.io/publication/rhpd/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Sharpened Lazy Incremental Quasi-Newton Method</title>
-      <link>https://Fellow4.github.io/publication/sliqn/</link>
-      <pubDate>Fri, 26 May 2023 20:39:46 +0530</pubDate>
-      <guid>https://Fellow4.github.io/publication/sliqn/</guid>
       <description></description>
     </item>
     
