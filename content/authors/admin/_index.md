@@ -103,7 +103,7 @@ work:
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
-skills: ''
+skills: 
   # - name: Technical Skills
   #   items:
   #     - name: Python
@@ -135,7 +135,7 @@ skills: ''
   #       percent: 80
   #       icon: camera
 
-languages: ''
+languages: 
   # - name: English
   #   percent: 100
   # - name: Chinese
