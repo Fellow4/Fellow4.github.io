@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Spandan
+title: Spandan Senapati
 
 # Name pronunciation (optional)
 name_pronunciation: ''
@@ -11,7 +11,7 @@ last_name: Senapati
 
 # Status emoji
 status:
-  icon: ☕️
+  icon:
 
 # Is this the primary user of the site?
 superuser: true
@@ -72,7 +72,7 @@ education:
   #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
   #      - lorem ipsum dolor sit amet, consectetur adipiscing elit
   #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: Bachelor of Technology in Computer Science and Engineering
+  - area: Bachelor of Technology in Computer Science and Engineering (2018-2022)
     institution: Indian Institute of Technology Kanpur
     date_start: 2018-07-31
     date_end: 2022-05-01

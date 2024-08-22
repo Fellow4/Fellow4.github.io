@@ -32,14 +32,14 @@ sections:
           parallax: false
   - block: collection
     content:
-      title: Recent Publications
+      title: Publications and Preprints
       text: ""
       filters:
         folders:
           - publication
         exclude_featured: false
     design:
-      view: citation
+      view: compact
   # - block: markdown
   #   content:
   #     title: '📚 My Research'
