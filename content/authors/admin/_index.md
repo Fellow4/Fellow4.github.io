@@ -20,11 +20,11 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: CS Ph.D. student
+role: Graduate student
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: University of Southern California (USC)
+  - name: University of Southern California 
     url: https://www.usc.edu/
 
 # Social network links
@@ -175,7 +175,7 @@ awards: ''
   #     Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
 ---
 
-## About Me
+## Biography
 
 I am a second year CS Ph.D. student in the [Theory group](https://viterbi-web.usc.edu/~cstheory/) at the [University of Southern California](https://www.usc.edu/), where I am fortunate to be advised by [Prof. Haipeng Luo](https://haipeng-luo.net/) and [Prof. Vatsal Sharan](https://vatsalsharan.github.io/). I am broadly interested in online learning and statistical learning theory. 
 
