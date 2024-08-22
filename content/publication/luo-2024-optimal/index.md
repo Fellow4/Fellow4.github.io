@@ -1,9 +1,9 @@
 ---
 title: Optimal Multiclass U-Calibration Error and Beyond
 authors:
-- Haipeng Luo
-- Spandan Senapati
-- Vatsal Sharan
+- Haipeng Luo$^{\alpha-\beta}$
+- Spandan Senapati$^{\alpha-\beta}$
+- Vatsal Sharan$^{\alpha-\beta}$
 date: '2024-01-01'
 publishDate: '2024-08-21T22:46:13.437601Z'
 publication_types:

@@ -1,8 +1,8 @@
 ---
 title: Sharpened Lazy Incremental Quasi-Newton Method
 authors:
-- Aakash Sunil Lahoti
-- Spandan Senapati
+- Aakash Sunil Lahoti$^{*}$
+- Spandan Senapati$^{*}$
 - Ketan Rajawat
 - Alec Koppel
 date: '2024-01-01'
