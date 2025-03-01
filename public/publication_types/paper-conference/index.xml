@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Paper-Conference | Spandan Senapati</title>
+    <link>https://example.com/publication_types/paper-conference/</link>
+      <atom:link href="https://example.com/publication_types/paper-conference/index.xml" rel="self" type="application/rss+xml" />
+    <description>Paper-Conference</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://example.com/media/icon_hu_645fa481986063ef.png</url>
+      <title>Paper-Conference</title>
+      <link>https://example.com/publication_types/paper-conference/</link>
+    </image>
+    
+    <item>
+      <title>Optimal Multiclass U-Calibration Error and Beyond</title>
+      <link>https://example.com/publication/luo-2024-optimal/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/luo-2024-optimal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sharpened Lazy Incremental Quasi-Newton Method</title>
+      <link>https://example.com/publication/lahoti-2024-sharpened/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/lahoti-2024-sharpened/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
