@@ -63,7 +63,7 @@ jobs:
     needs: build
     steps:
     - name: Remove .lock files  # ✅ New step to fix deployment issue
-      run: find public -name ".lock" -type f -delete
+      run: find -name ".lock" -type f -delete
     # - name: Download Build Artifact
     #   uses: actions/download-artifact@v4
     #   with:
