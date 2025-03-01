@@ -27,7 +27,7 @@ jobs:
       with:
         fetch-depth: 0
     - name: Setup Hugo
-      uses: peaceiris/actions-hugo@v4
+      uses: peaceiris/actions-hugo@v3
       with:
         hugo-version: ${{ env.WC_HUGO_VERSION }}
         extended: true
