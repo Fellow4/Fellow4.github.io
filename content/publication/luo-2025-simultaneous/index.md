@@ -8,6 +8,6 @@ date: '2025-02-23'
 publishDate: '2025-02-27T22:46:13.437601Z'
 publication_types:
 - preprint
-publication:
+publication: '*Preprint*'
 url_pdf: "https://arxiv.org/abs/2502.16387"
 ---
