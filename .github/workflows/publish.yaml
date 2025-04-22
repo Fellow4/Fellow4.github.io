@@ -62,12 +62,15 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     steps:
-    - name: Remove .lock files  # ✅ New step to fix deployment issue
+    - name: Remove .lock files
       run: find -name ".lock" -type f -delete
+
     - name: Download Build Artifact
       uses: actions/download-artifact@v4
       with:
-        name: github-pages  # Download the artifact using the same name
+        name: github-pages
+        path: ./public  # ✅ Add this line to place files where deploy expects
+
     - name: Deploy to GitHub Pages
       id: deployment
       uses: actions/deploy-pages@v4
