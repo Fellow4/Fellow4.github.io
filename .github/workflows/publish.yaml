@@ -51,6 +51,7 @@ jobs:
         echo "Hugo Cache Dir: $(hugo config | grep cachedir)"
         hugo --cleanDestinationDir --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
 
+    # (Optional) If you re-enable Pagefind, put it back here.
     # - name: Generate Pagefind search index
     #   run: npx pagefind --site "public"
 
@@ -60,6 +61,9 @@ jobs:
         ls -lR public
         echo "=== File Sizes ==="
         du -h public | sort -h
+
+    - name: Remove .mp3 files before upload
+      run: find public -type f -name "*.mp3" -delete
 
     - name: Upload a Build Artifact
       uses: actions/upload-artifact@v4
