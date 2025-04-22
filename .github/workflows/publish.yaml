@@ -57,4 +57,38 @@ jobs:
     - name: List public/ contents before upload
       run: |
         echo "=== public/ Directory Structure ==="
-        ls -l
+        ls -lR public
+        echo "=== File Sizes ==="
+        du -h public | sort -h
+
+    - name: Upload a Build Artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: github-pages
+        path: ./public
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+    - name: Remove .lock files
+      run: find -name ".lock" -type f -delete
+
+    - name: Download Build Artifact
+      uses: actions/download-artifact@v4
+      with:
+        name: github-pages
+        path: ./public
+
+    - name: List contents of deployment folder
+      run: |
+        echo "=== Deploying from ./public ==="
+        ls -lR public
+        du -sh public
+
+    - name: Deploy to GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@v4
