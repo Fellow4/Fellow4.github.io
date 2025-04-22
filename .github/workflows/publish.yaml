@@ -51,6 +51,11 @@ jobs:
         echo "Hugo Cache Dir: $(hugo config | grep cachedir)"
         hugo --cleanDestinationDir --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
 
+    - name: Remove HugoBlox _headers and _redirects
+      run: |
+        rm -f public/_headers
+        rm -f public/_redirects
+
     - name: Remove .DS_Store files before upload
       run: find public -type f -name ".DS_Store" -delete
 
