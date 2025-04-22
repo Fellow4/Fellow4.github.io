@@ -51,8 +51,8 @@ jobs:
         echo "Hugo Cache Dir: $(hugo config | grep cachedir)"
         hugo --cleanDestinationDir --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
 
-    - name: Generate Pagefind search index
-      run: npx pagefind --site "public"
+    # - name: Generate Pagefind search index
+    #   run: npx pagefind --site "public"
 
     - name: List public/ contents before upload
       run: |
