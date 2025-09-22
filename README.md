@@ -1,52 +1,187 @@
-# [Hugo Academic CV Theme](https://github.com/HugoBlox/theme-academic-cv)
+# The Minimal Light Theme
 
-[![Screenshot](.github/preview.webp)](https://hugoblox.com/templates/)
+[![LICENSE](https://img.shields.io/github/license/yaoyao-liu/minimal-light?style=flat-square&logo=creative-commons&color=EF9421)](https://github.com/yaoyao-liu/minimal-light/blob/main/LICENSE)
 
-The Hugo **Academic CV Template** empowers you to easily create your job-winning online resumé, showcase your academic publications, and create online courses or knowledge bases to grow your audience.
+\[[Demo the theme](https://minimal-light-theme.yliu.me/)\]  \[[简体中文](https://github.com/yaoyao-liu/minimal-light/blob/master/README_zh_Hans.md) | [繁體中文](https://github.com/yaoyao-liu/minimal-light/blob/master/README_zh_Hant.md) | [Deutsche](https://github.com/yaoyao-liu/minimal-light/blob/master/README_de.md)\]
+ 
+*This is the source code of my homepage. I build this website based on [minimal](https://github.com/orderedlist/minimal).*
+<br>
+*Feel free to use and share the source code anywhere you like.*
 
-[![Get Started](https://img.shields.io/badge/-Get%20started-ff4655?style=for-the-badge)](https://hugoblox.com/templates/)
-[![Discord](https://img.shields.io/discord/722225264733716590?style=for-the-badge)](https://discord.com/channels/722225264733716590/742892432458252370/742895548159492138)  
-[![Twitter Follow](https://img.shields.io/twitter/follow/GetResearchDev?label=Follow%20on%20Twitter)](https://twitter.com/GetResearchDev)
+An improved vision from [@Xiao-Chenguang](https://github.com/Xiao-Chenguang): [[link](https://github.com/Xiao-Chenguang/minimal-light)]
 
-️**Trusted by 250,000+ researchers, educators, and students.** Highly customizable via the integrated **no-code, Hugo Blox Builder**, making every site truly personalized ⭐⭐⭐⭐⭐
+**The latest version of my homepage is available here: <br><https://github.com/yaoyao-liu/homepage>**
 
-Easily write technical content with plain text Markdown, LaTeX math, diagrams, RMarkdown, or Jupyter, and import publications from BibTeX.
+## Features
 
-[Check out the latest demo](https://academic-demo.netlify.app/) of what you'll get in less than 10 minutes, or [get inspired by our academics and research groups](https://hugoblox.com/creators/).
+- Simple and elegant personal homepage theme
+- Jekyll theme, automatically deployed by GitHub Pages
+- Basic search engine optimization
+- Mobile friendly
+- Supporting Markdown 
+- Supporting dark mode
 
-The integrated [**Hugo Blox Builder**](https://hugoblox.com) and CMS makes it easy to create a beautiful website for free. Edit your site in the CMS (or your favorite editor), generate it with [Hugo](https://github.com/gohugoio/hugo), and deploy with GitHub or Netlify. Customize anything on your site with widgets, light/dark themes, and language packs.
+## Project Architecture
 
-- 👉 [**Get Started**](https://hugoblox.com/templates/)
-- 📚 [View the **documentation**](https://docs.hugoblox.com/)
-- 💬 [Chat with the **Hugo Blox Builder community**](https://discord.gg/z8wNYzb) or [**Hugo community**](https://discourse.gohugo.io)
-- 🐦 Twitter: [@GetResearchDev](https://twitter.com/GetResearchDev) [@GeorgeCushen](https://twitter.com/GeorgeCushen) [#MadeWithHugoBlox](https://twitter.com/search?q=%23MadeWithHugoBlox&src=typed_query)
-- ⬇️ **Automatically import your publications from BibTeX** with the [Hugo Academic CLI](https://github.com/GetRD/academic-file-converter)
-- 💡 [Suggest an improvement](https://github.com/HugoBlox/hugo-blox-builder/issues)
-- ⬆️ **Updating?** View the [Update Guide](https://docs.hugoblox.com/reference/update/) and [Release Notes](https://github.com/HugoBlox/hugo-blox-builder/releases)
+```
+.
+├── _data                    
+|   └── publications.yml                      # the YAML file for publications
+├── _includes                    
+|   ├── publications.md                       # the Markdown file for publications
+|   └── services.md                           # the Markdown file for services
+├── _layouts                  
+|   └── homepage.html                         #  the html template for the homepage 
+├── _sass
+|   ├── minimal-light.scss                    #  this file will be compiled into a CSS file to control the style of the page              
+|   └── minimal-light-no-dark-mode.scss       #  this file is similar to minimal-light.scss with the dark mode disabled
+├── assets                                    #  some files
+├── html_source_file                          #  compiled HTML files
+├── .gitignore                                #  this file specifies intentionally untracked files that Git should ignore
+├── CNAME                                     #  the custom domain, will be used by GitHub page sevice
+├── Gemfile                                   #  a RubyGems related file
+├── LICENSE                                   #  the license file
+├── README.md                                 #  the readme file (English)
+├── README_de.md                              #  the readme file (German)
+├── README_zh_Hans.md                         #  the readme file (Simplified Chinese)
+├── README_zh_Hant.md                         #  the readme file (Traditional Chinese)
+├── _config.yml                               #  the Jekyll configuration file, including some options of the page  
+└── index.md                                  #  the content of the index page, using Markdown
+```
 
-## We ask you, humbly, to support this open source movement
+## Getting Started
 
-Today we ask you to defend the open source independence of the Hugo Blox Builder and themes 🐧
+This template can be used in the following two ways: 
+- **Using with the GitHub Pages Service.** GitHub will provide you with a server to generate and host web pages.
+- **Using locally with Jekyll.** You may install Jekyll on your own computer and generate static web pages (i.e., HTML files) with this template. After that, you may upload the HTML files to your server.
 
-We're an open source movement that depends on your support to stay online and thriving, but 99.9% of our creators don't give; they simply look the other way.
+The detailed instructions are available below.
 
-### [❤️ Click here to become a Sponsor, unlocking awesome perks such as _exclusive academic templates and blocks_](https://hugoblox.com/sponsor/)
 
-<!--
-<p align="center"><a href="https://hugoblox.com/templates/" target="_blank" rel="noopener"><img src="https://hugoblox.com/uploads/readmes/academic_logo_200px.png" alt="Hugo Academic Theme for Hugo Blox Builder"></a></p>
--->
+### Using with the GitHub Pages Service
 
-## Demo image credits
+There are two ways to use this template on GitHub:
 
-- [Unsplash](https://unsplash.com)
+#### Fork this repository
+- Fork this repository (or [use this repository as a template](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template)) and change the name to `your-username.github.io`.
 
-## Latest news
+- Enable the GitHub pages for that repository following the steps [here](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site#creating-your-site).
 
-<!--START_SECTION:news-->
+#### Using this repository as a remote theme
+To use this theme, add the following to your repository's `_config.yml`:
 
-- [Easily make an academic CV website to get more cites and grow your audience 🚀](https://hugoblox.com/blog/easily-make-academic-website/)
-- [What&#39;s new in v5.2?](https://hugoblox.com/blog/whats-new-in-v5.2/)
-- [What&#39;s new in v5.1?](https://hugoblox.com/blog/whats-new-in-v5.1/)
-- [Version 5.0 (February 2021)](https://hugoblox.com/blog/version-5.0-february-2021/)
-- [Version 5.0 Beta 3 (February 2021)](https://hugoblox.com/blog/version-5.0-beta-3-february-2021/)
-<!--END_SECTION:news-->
+```yaml
+remote_theme: yaoyao-liu/minimal-light
+```
+
+Please note that adding the above line will directly apply all the default settings in this repository to yours.
+
+If you hope to edit any files (e.g., `index.md`), you still need to copy them to your repository.
+
+### Using Locally with Jekyll
+
+First, install [Ruby](https://www.ruby-lang.org/en/) and [Jekyll](https://jekyllrb.com/). The install instructions can be found here: <https://jekyllrb.com/docs/installation/#guides>
+
+Then, clone this repository:
+
+```bash
+git clone https://github.com/yaoyao-liu/minimal-light.git
+cd minimal-light
+```
+Install and run:
+
+```bash
+bundle install
+bundle add webrick
+bundle exec jekyll server
+```
+View the live page using `localhost`:
+<http://localhost:4000>. You can get the HTML files in `_site` folder.
+
+### Using the HTML version
+
+The compiled HTML files are available in the `html_source_file` folder. If you don't like Jekyll, you may directly edit and use the HTML version.
+
+## Customizing
+
+### Configuration variables
+
+The Minimal Light theme will respect the following variables, if set in your site's `_config.yml`:
+
+  ```yaml
+# Basic Information 
+title: Your Name
+position: Ph.D. Student
+affiliation: Your Affiliation
+email: yourname (at) example.edu
+
+# Search Engine Optimization (SEO)
+# The following information is used to improve the website traffic from search engines, e.g., Google.
+keywords: minimal light
+description: The Minimal Light is a simple and elegant jekyll theme for academic personal homepage.
+canonical: https://minimal-light-theme.yliu.me/
+
+# Links 
+# If you don't need one of them, you may delete the corresponding line.
+google_scholar: https://scholar.google.com/
+cv_link: assets/files/curriculum_vitae.pdf
+github_link: https://github.com/
+linkedin: https://www.linkedin.com/
+twitter: https://twitter.com/
+
+# Images (e.g., your profile picture and your website's favicon) 
+# "favicon" and "favicon_dark" are used for the light and dark modes, respectively. 
+avatar: ./assets/img/avatar.png
+favicon: ./assets/img/favicon.png
+favicon_dark: ./assets/img/favicon-dark.png
+
+# Footnote
+# You may use the option to disable the footnote, "Powered by Jekyll and Minimal Light theme."
+enable_footnote: true
+
+# Auto Dark Mode
+# You may use the option to disable the automatic dark theme
+auto_dark_mode: true
+
+# Font
+# You can use this option to choose between Serif or Sans Serif fonts.
+font: "Serif" # or "Sans Serif"
+
+# Google Analytics ID
+# Please remove this if you don't use Google Analytics
+google_analytics: UA-111540567-4
+  ```
+### Edit `index.md`
+
+Create `index.md` and add your personal information. It supports **Markdown** and **HTML** syntax.
+
+### Edit included files
+
+There are two markdown files included in `index.md`. They are `_includes/publications.md` and `_includes/service.md`, respectively. These two files also support **Markdown** and **HTML** syntax. If you don't hope to include these two files, you may remove the following lines in `index.md`:
+https://github.com/yaoyao-liu/minimal-light/blob/b38070cd0b6bce45d8a885f3828549af8f82b7cb/index.md?plain=1#L21-L23
+
+If you hope to edit the publication list without changing the format, you may edit `_data/publications.yml`:
+https://github.com/yaoyao-liu/minimal-light/blob/77b1b3b31d4561091bcd739f37a2e1880e8b5ca5/_data/publications.yml#L3-L11
+
+
+### Stylesheet
+
+If you'd like to add your own custom styles, you may edit `_sass/minimal-light.scss`.
+
+### Layouts
+
+If you'd like to change the theme's HTML layout, you may edit `_layout/homepage.html`.
+
+## License
+
+This work is licensed under a [Creative Commons Zero v1.0 Universal](https://github.com/yaoyao-liu/minimal-light/blob/master/LICENSE) License.
+
+## Acknowledgements
+
+Our project uses the source code from the following repositories:
+
+* [pages-themes/minimal](https://github.com/pages-themes/minimal)
+
+* [orderedlist/minimal](https://github.com/orderedlist/minimal)
+
+* [al-folio](https://github.com/alshedivat/al-folio)
