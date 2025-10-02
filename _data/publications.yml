@@ -1,0 +1,89 @@
+main:
+
+  # - title: Continual Learning for Abdominal Multi-Organ and Tumor Segmentation
+  #   authors: Yixiao Zhang, Xinyi Li, Huimiao Chen, Alan Yuille, <strong>Yaoyao Liu*</strong>, Zongwei Zhou* (*Corresponding authors)
+  #   conference_short: MICCAI
+  #   conference: International Conference on Medical Image Computing and Computer-Assisted Intervention <strong>(MICCAI)</strong>, 2023.
+  #   pdf: https://arxiv.org/pdf/2306.00988.pdf
+  #   code: https://github.com/MrGiovanni/ContinualLearning
+  #   bibtex: https://bib.yliu.me/MICCAI23.txt
+  #   image: ./assets/img/teaser_example_2.png
+  #   notes: Early Accept
+  - title: Improved Bounds for Swap Multicalibration and Swap Omniprediction
+    authors: Haipeng Luo, <strong>Spandan Senapati</strong>, Vatsal Sharan
+    conference_short: NeurIPS
+    conference: NeurIPS 2025 (<strong> Spotlight </strong>). Also accepted at the Swap Regret and Strategic Learning Workshop @ EC 2025
+    pdf: https://arxiv.org/abs/2505.20885
+    code: 
+    bibtex:
+    image: 
+    notes: 
+
+  - title: Simultaneous Swap Regret Minimization via KL-Calibration
+    authors: Haipeng Luo, <strong>Spandan Senapati</strong>, Vatsal Sharan
+    conference_short: NeurIPS
+    conference: NeurIPS 2025 (<strong> Spotlight </strong>). Also accepted at the Swap Regret and Strategic Learning Workshop @ EC 2025
+    pdf: https://arxiv.org/abs/2502.16387
+    code: 
+    bibtex:
+    image: 
+    notes: 
+
+  - title: Optimal Multiclass U-Calibration Error and Beyond
+    authors: Haipeng Luo, <strong>Spandan Senapati</strong>, Vatsal Sharan
+    conference_short: NeurIPS
+    conference: NeurIPS, 2024
+    pdf: https://arxiv.org/abs/2405.19374
+    code: 
+    bibtex:
+    image:
+    notes:
+
+
+  - title: Sharpened Lazy Incremental Quasi-Newton Method
+    authors: Aakash Lahoti*, <strong>Spandan Senapati*</strong>, Ketan Rajawat, Alec Koppel (*Equal Contribution)
+    conference_short: AISTATS
+    conference: AISTATS, 2024
+    pdf: https://arxiv.org/abs/2305.17283
+    code: 
+    bibtex:
+    image:
+    notes:
+
+  - title: Online Convex Optimization with Switching Cost and Delayed Gradients
+    authors: <strong>Spandan Senapati</strong>, Rahul Vaze
+    conference_short: Performance
+    conference: IFIP Performance, 2023. Full version appears in Performance Evaluation (PEVA); Extended abstract appears in ACM SIGMETRICS Performance Evaluation Review (PER)
+    pdf: https://arxiv.org/abs/2310.11880
+    code: 
+    bibtex:
+    image:
+    notes:
+
+  - title: Proximal Algorithms for Smoothed Online Convex Optimization with Predictions
+    authors: <strong>Spandan Senapati</strong>, Ashwin Shenai, Ketan Rajawat
+    conference_short: IEEE TSP
+    conference: IEEE Transactions on Signal Processing, 2023
+    pdf: https://arxiv.org/abs/2212.04459
+    code: 
+    bibtex:
+    image:
+    notes:
+
+# @article{luo2024optimal,
+#   title={Optimal Multiclass U-Calibration Error and Beyond},
+#   author={Luo, Haipeng and Senapati, Spandan and Sharan, Vatsal},
+#   journal={arXiv preprint arXiv:2405.19374},
+#   year={2024}
+# } 
+
+  # - title: "Mnemonics Training: Multi-Class Incremental Learning without Forgetting"
+  #   authors: <strong>Yaoyao Liu</strong>, Yuting Su, An-An Liu, Bernt Schiele, Qianru Sun
+  #   conference_short: CVPR
+  #   conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2020.
+  #   pdf: https://arxiv.org/pdf/2002.10211.pdf
+  #   code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
+  #   page: https://class-il.mpi-inf.mpg.de/mnemonics/
+  #   bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
+  #   notes: Oral Presentation
+  #   image: ./assets/img/teaser_example.png
