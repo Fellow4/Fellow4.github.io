@@ -10,8 +10,7 @@ Previously, I was a research assistant in the [Signal Processing in Networking (
 
 Before that, I graduated from IITK with a Bachelor's degree in Computer Science. I am very fortunate to have been supervised by [Prof. Ketan Rajawat](https://home.iitk.ac.in/~ketan/) during my undergraduate.
 
-I am quite passionate about blues and rock music and have been playing guitar (fingerstyle acoustic and electric) for a while. [This]() is one of my most favorite recordings.
-
+I am quite passionate about blues and rock music and have been playing guitar (fingerstyle acoustic and electric) for a while. 
 ## Research Interests
 
 I am broadly interested in online learning and learning theory. More specifically, my research interests include theoretical foundations of trustworthy machine learning, e.g., calibration, multicalibration, omniprediction, and aspects of online learning, which includes fast algorithms for swap regret minimization.
