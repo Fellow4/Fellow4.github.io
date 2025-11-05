@@ -1,5 +1,4 @@
 main:
-
   # - title: Continual Learning for Abdominal Multi-Organ and Tumor Segmentation
   #   authors: Yixiao Zhang, Xinyi Li, Huimiao Chen, Alan Yuille, <strong>Yaoyao Liu*</strong>, Zongwei Zhou* (*Corresponding authors)
   #   conference_short: MICCAI
@@ -9,6 +8,17 @@ main:
   #   bibtex: https://bib.yliu.me/MICCAI23.txt
   #   image: ./assets/img/teaser_example_2.png
   #   notes: Early Accept
+  
+  - title: Efficient Swap Multicalibration of Elicitable Properties
+    authors: Lunjia Hu, Haipeng Luo, <strong>Spandan Senapati</strong>, Vatsal Sharan
+    conference_short: Under submission
+    conference: Under submission
+    pdf: 
+    code: 
+    bibtex:
+    image: 
+    notes: 
+  
   - title: Improved Bounds for Swap Multicalibration and Swap Omniprediction
     authors: Haipeng Luo, <strong>Spandan Senapati</strong>, Vatsal Sharan
     conference_short: NeurIPS
@@ -18,6 +28,8 @@ main:
     bibtex:
     image: 
     notes: 
+
+  
 
   - title: Simultaneous Swap Regret Minimization via KL-Calibration
     authors: Haipeng Luo, <strong>Spandan Senapati</strong>, Vatsal Sharan
