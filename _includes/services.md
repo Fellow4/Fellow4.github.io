@@ -3,9 +3,10 @@
 <h4 style="margin:0 10px 0;">Conference Reviewing</h4>
 
 <ul style="margin:0 0 5px;">
-  <li> <a> <autocolor> Advances in Neural Information Processing Systems (NeurIPS) 2024, 2025 </autocolor></a></li>
-  <li> <a> <autocolor> (External Reviewer) Foundations of Computer Science (FOCS) 2025 </autocolor></a></li>
+  <li><a><autocolor>Advances in Neural Information Processing Systems (NeurIPS) 2024, 2025 (<b>Top Reviewer</b>)</autocolor></a></li>
+  <li><a><autocolor>(External Reviewer) Foundations of Computer Science (FOCS) 2025</autocolor></a></li>
 </ul>
+
 
 <!-- <h4 style="margin:0 10px 0;">Journal Reviewers</h4>
 
