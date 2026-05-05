@@ -11,8 +11,8 @@ main:
   
   - title: Efficient Swap Multicalibration of Elicitable Properties
     authors: Lunjia Hu, Haipeng Luo, <strong>Spandan Senapati</strong>, Vatsal Sharan
-    conference_short: Under submission
-    conference: Under submission
+    conference_short: COLT 2026
+    conference: COLT 2026
     pdf: https://arxiv.org/abs/2511.04907
     code: 
     bibtex:
